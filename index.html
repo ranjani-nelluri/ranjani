@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RANJANI NELLURI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <script src="https://kit.fontawesome.com/0ff319aedc.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  </head>
+  <body>
+<!--Navbar start-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">My Portifolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="#home" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#portfolio">Portfolio</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link active" href="ranjani resume.pdf">My Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contact">Contact</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--Navbar end-->
+<!---! Banner Start-->
+<section class="bannerBgImage" id="home">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-15 bannerText">
+          <h2 class="bannerTitle animate_animated animatefadeInLeft animatedelay-2s	2s animate_slow	2s">Hi There !!</h3>
+          <p class="bannerDesc animate_animated animatefadeInRight animatedelay-3s	3s animate_slow	2s">Welcome to my portfolio</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!---! Banner end-->
+<!-- !About Start-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/ranjani nelluri.jpg" alt="Ranjani">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Nelluri Ranjani, Pursuing btech in Sri Mittapalli College of Engineering in the stream of Computer Science and Engineering with the CGPA of 7.49.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                    <p class="tab-links"onclick="opentab('Certfication')">Certfications</p>       
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Front-End and Back-End Development<br></li>
+                        <li><span>Data science</span><br>Data Analysis<br></li>
+                        <li><span>Coding Languages</span><br>Python, C, C++ ,Java<br></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2018</span><br>SSC in S. N. R. R. Z. P. High School with 9.3 G.P.A<br></li>
+                        <li><span>2020</span><br>Intermediate in Chaitanya Junior College with 80.14%<br></li>
+                        <li><span>2024</span><br>Undergraduation in Sri Mittapalli College of Engineering(7.49 G.P.A untill 6th semester, still pursuing)<br></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Certfication">
+                    <ul>
+                        <li><span>2022-23</span><br>Completed a course in the National Programme on Technology Enhanced Learning<br>1. Cloud Computing with 70% <br></li>
+                        <li><span>2022</span><br>I completed two internship Training in apsche<br>1. Data analyst<br></li>
+                        <div class="dropdown">
+                          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">View My Certficates</a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="nptel.html">NPTEL Certficates</a></li>
+                            <li><a class="dropdown-item" href="internship.html">Internship Certficates</a></li>
+                          </ul>
+                        </div>
+                    </ul>
+                </div>
+      
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- !About End-->
+<!-- !Portifolio Start-->
+<div id="portfolio">
+  <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="row">
+          <div class="col-md-4">
+          <div class="work">
+              <img src="images/download.jpeg" alt="work image 1" height="450" width="120">
+              <div class="layer">
+                  <h3>Password and Otp Genrator</h3>
+                  <p>Now a days Password and Otp Plays a crucial for Security Purpose of the Accounts, By using programming we can Genrate Passwords and Otps randomly using the random functions.</p>
+                      <a href="pass.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+  </div>
+</div>
+
+<!-- !Portifolio end-->
+<!-- !contact Start-->
+<div id="contact">
+  <div class="container">
+      <div class="row">
+          <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-solid fa-paper-plane"></i>ranjaninelluri8@gmail.com</p>
+              <p><i class="fa-solid fa-phone"></i>9985389413</p>
+              <div class="social-icons">
+                  <a href="https://www.facebook.com/nelluri.ranjani"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/_ranjani_n/"><i class="fa-brands fa-square-instagram"></i></i></a>
+                  <a href="https://www.linkedin.com/in/ranjani-nelluri-a8387426a/"><i class="fa-brands fa-linkedin"></i></i></a>
+              </div>
+              <a href="ranjani resume.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                  <input type="text" name="Name" placeholder="Your Name" required>
+                  <input type="email" name="Email" placeholder="Your Email" required>
+                  <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                  <button type="submit" class="btn btn2">Submit </button>
+              </form>
+               <span id="msg"></span>
+             
+          </div>
+
+      </div>
+  </div>
+  <div class="copyright">
+      <p>copyright © Ranjani Nelluri.<i class="bi bi-award"></i></p>
+  </div>
+</div>
+
+<!-- !contact End-->
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-links");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+<script>
+  function showPDF() {
+    const pdfContainer = document.getElementById('pdfContainer');
+    const pdfURL = 'ranjani resume.pdf';
+
+    // Create an <embed> tag to display the PDF content
+    const embedTag = document.createElement('embed');
+    embedTag.src = ranjani resume.pdf;
+    embedTag.type = 'application/pdf';
+    embedTag.width = '100%';
+    embedTag.height = '600px';
+
+    // Append the <embed> tag to the container
+    pdfContainer.appendChild(embedTag);
+
+    // Prevent the default link behavior (preventing download)
+    return false;
+  }
+</script>
+<script>
+  document.querySelector('form[name="submit-to-google-sheet"]').addEventListener('submit', handleSubmit);
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    const form = event.target;
+    const formData = new FormData(form);
+    const data = {};
+    formData.forEach((value, key) => {
+      data[key] = value;
+    });
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzDnzmMEwGJJz6TtiZCeL8s7f1jeYFt5tNH-3COkXvvZtvaszD_yYcI9CtNWQmPrsA/exec';
+    fetch(scriptURL, {
+      method: 'POST',
+      mode: 'no-cors',
+      body: JSON.stringify(data),
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
+      .then(() => {
+        document.getElementById('msg').textContent = 'Message sent successfully!';
+        form.reset();
+      })
+      .catch((error) => {
+        console.error('Error sending message:', error);
+        document.getElementById('msg').textContent = 'Message sending failed!';
+      });
+  }
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
